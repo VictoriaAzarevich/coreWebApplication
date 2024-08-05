@@ -30,5 +30,25 @@ namespace coreWebApplication.Controllers
             ViewBag.Password = login.Password;
             return View();
         }
+
+        public IActionResult UserDetail()
+        {
+            var user = new LoginViewModel()
+            {
+                Username = "Victoria",
+                Password = "12345"
+            };
+            return View(user);
+        }
+
+        public IActionResult UserList()
+        {
+            var users = new List<LoginViewModel>()
+            {
+                new LoginViewModel() {Username = "Victoria", Password = "12345"},
+                new LoginViewModel() {Username = "Edward", Password = "54321"}
+            };
+            return View(users);
+        }
     }
 }
