@@ -57,5 +57,20 @@ namespace coreWebApplication.Controllers
             };
             return View(users);
         }
+
+        public IActionResult GetAccount()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult PostAccount(Account account)
+        {
+            if(ModelState.IsValid)
+            {
+                return View("Success");
+            }
+            return RedirectToAction("GetAccount");
+        }
     }
 }
