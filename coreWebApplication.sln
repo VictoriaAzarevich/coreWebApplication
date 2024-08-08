@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreWebApplication", "coreW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreEntityFrameworkDatabaseFirstApproach", "..\WebApplication1\coreEntityFrameworkDatabaseFirstApproach.csproj", "{80F01956-7187-4B00-BEB2-44CF82E70B97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreEntityFrameworkCodeFirstApproach", "..\coreEntityFrameworkCodeFirstApproach\coreEntityFrameworkCodeFirstApproach.csproj", "{6D19575C-F1DE-404F-ADE2-2681DCCE1C5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{80F01956-7187-4B00-BEB2-44CF82E70B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80F01956-7187-4B00-BEB2-44CF82E70B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80F01956-7187-4B00-BEB2-44CF82E70B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D19575C-F1DE-404F-ADE2-2681DCCE1C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D19575C-F1DE-404F-ADE2-2681DCCE1C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D19575C-F1DE-404F-ADE2-2681DCCE1C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D19575C-F1DE-404F-ADE2-2681DCCE1C5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
