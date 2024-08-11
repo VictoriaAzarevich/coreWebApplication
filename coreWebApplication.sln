@@ -5,11 +5,13 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreWebApplication", "coreWebApplication.csproj", "{7272D0D1-0F25-487B-A143-22E4D5DD2F5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreEntityFrameworkDatabaseFirstApproach", "..\WebApplication1\coreEntityFrameworkDatabaseFirstApproach.csproj", "{80F01956-7187-4B00-BEB2-44CF82E70B97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreEntityFrameworkDatabaseFirstApproach", "..\WebApplication1\coreEntityFrameworkDatabaseFirstApproach.csproj", "{80F01956-7187-4B00-BEB2-44CF82E70B97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreEntityFrameworkCodeFirstApproach", "..\coreEntityFrameworkCodeFirstApproach\coreEntityFrameworkCodeFirstApproach.csproj", "{6D19575C-F1DE-404F-ADE2-2681DCCE1C5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreEntityFrameworkCodeFirstApproach", "..\coreEntityFrameworkCodeFirstApproach\coreEntityFrameworkCodeFirstApproach.csproj", "{6D19575C-F1DE-404F-ADE2-2681DCCE1C5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreIdentityApplication", "..\coreIdentityApplication\coreIdentityApplication.csproj", "{9D5CE69C-D63F-44F6-AC9C-1285A3EB3C66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coreIdentityApplication", "..\coreIdentityApplication\coreIdentityApplication.csproj", "{9D5CE69C-D63F-44F6-AC9C-1285A3EB3C66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebAPIProject", "..\AspNetCoreWebAPIProject\AspNetCoreWebAPIProject.csproj", "{C87B9FB1-C65C-4BC1-BD0B-51DDF2E4AFC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9D5CE69C-D63F-44F6-AC9C-1285A3EB3C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D5CE69C-D63F-44F6-AC9C-1285A3EB3C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D5CE69C-D63F-44F6-AC9C-1285A3EB3C66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87B9FB1-C65C-4BC1-BD0B-51DDF2E4AFC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87B9FB1-C65C-4BC1-BD0B-51DDF2E4AFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87B9FB1-C65C-4BC1-BD0B-51DDF2E4AFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87B9FB1-C65C-4BC1-BD0B-51DDF2E4AFC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
